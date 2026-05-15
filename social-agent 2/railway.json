@@ -1,0 +1,11 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "npm install && apt-get install -y ffmpeg || true && pip install yt-dlp --break-system-packages || true"
+  },
+  "deploy": {
+    "startCommand": "node server.js",
+    "healthcheckPath": "/status"
+  }
+}
