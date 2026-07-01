@@ -1,5 +1,4 @@
-// AgentNet Social v4.0 — YouTube auto-discovery
-require('dotenv').config();
+// AgentNet Social v4.1 — YouTube auto-discoveryrequire('dotenv').config();
 
 // Route ALL outbound requests through proxy at Node.js level
 if (process.env.PROXY_URL) {
