@@ -16,6 +16,7 @@
     "node-cron": "^3.0.3",
     "axios": "^1.6.0",
     "dotenv": "^16.3.1",
+        "http-proxy-agent": "^7.0.2",
     "multer": "^1.4.5-lts.1",
     "global-agent": "^3.0.0",
     "https-proxy-agent": "^7.0.4"
